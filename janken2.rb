@@ -14,6 +14,7 @@ def janken
 
   if my_hand == computer_hand
     puts "あいこでしょ"
+    return true
   elsif(my_hand == 0 && computer_hand == 1)||(my_hand == 1 && computer_hand == 2)||(my_hand == 2 && computer_hand == 0)
     puts "You win!"
   else
@@ -21,9 +22,9 @@ def janken
   end
 end
 
-puts janken
-while my_hand == computer_hand
-    def janken
-    end
+ janken
+
+while 
+ture = janken
 end
 
