@@ -1,6 +1,5 @@
 puts "最初はグー。じゃんけん"
-
-def janken
+loop do
   puts "数字を選べ
   グー:0
   チョキ:1
@@ -17,14 +16,13 @@ def janken
     return true
   elsif(my_hand == 0 && computer_hand == 1)||(my_hand == 1 && computer_hand == 2)||(my_hand == 2 && computer_hand == 0)
     puts "You win!"
+    break
   else
     puts "You looooose"
+    break
   end
 end
 
- janken
 
-while 
-ture = janken
-end
+
 
